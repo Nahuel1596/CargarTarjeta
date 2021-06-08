@@ -43,7 +43,7 @@ function verificarTarjeta()
 
 function VerificarAño(texto)
 {
-    if (texto<2022)
+    if (texto<2022 && texto>0)
         return true;
     else
         return false;
