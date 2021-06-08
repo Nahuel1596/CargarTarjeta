@@ -27,7 +27,7 @@ function verificarTarjeta()
     año_Nacido=document.getElementById("Año_Nacimiento").value;
     ResultNacimiento=VerificarDia(dia_Nacido) && VerificarMes(mes_Nacido) && VerificarAño(año_Nacido);
     
-    if(ResulNumTarjeta && ResulNOmbreTar && ResultCod_Tarjeta && ResultNacimiento))
+    if(ResulNumTarjeta && ResulNOmbreTar && ResultCod_Tarjeta && ResultNacimiento)
     {
         alert("Tarjeta Agregada Correctamente");
     }
