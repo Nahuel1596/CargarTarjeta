@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Agregar Tarjeta</title>
+        <meta name="description" content="Agregar Tarjeta"/>
+        <meta name="author" content="EVS Grupo 16">
+        <link rel="stylesheet" href="AgregarTarjeta.css">
+        <script src="AgregarTarjeta.js"></script>
+    </head>
+
+    <body>
+        <div id="container">
+            <h1>Agregar Tarjeta</h1>
+            <form>
+                
+                <label for="Numero_Tarjeta">Numero de Tarjeta:</label>
+                <input type="text" id="num_Tarjeta">
+                <br>
+                
+                <label for="">Fecha de nacimiento (Numerica): </label>
+                <br>
+                <label for="">Dia: </label>
+                <input type="text" id="Dia_Nacimiento">
+                <label for="">Mes: </label>
+                <input type="text" id="Mes_Nacimiento">
+                <label for="">Año: </label>
+                <input type="text" id="Año_Nacimiento">
+                <br>
+                
+                <label for="Name_Tarjeta">Nombre impreso en la tarjeta: </label>
+                <input type="text" id="nombre_Tarjeta">
+                <br>
+            
+                <label for="Codigo_Seguridad">Ingrese el codigo de seguridad de la tarjeta:  </label>
+                <input type="text" id="cod_Tarjeta">
+                <br>
+                <div id="lower">
+
+                    <input type="button" value="Agregar Tarjeta" onclick="verificarTarjeta()">
+                </div>
+            </form>       
+        </div>
+    </body>
